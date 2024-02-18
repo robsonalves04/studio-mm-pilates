@@ -1,4 +1,4 @@
-import { useKorpayFormProvider } from "../../../../services/providers/korpay-form-provider/korpay-form-provider"
+import { useKorpayFormProvider } from "../../../../services/providers/studio-form-provider/studio-form-provider"
 import { KorpayFormConfig, KorpayFormRef } from "../base-form/korpay-form"
 import { KorpayCPFFormModel } from "../../../../models/forms/korpay-cpf-form-model"
 import { EnumFormSteps } from "../../../../models/enums/form-steps"

@@ -1,1 +1,1 @@
-export { } from './korpay-form-provider'
+export { } from './studio-form-provider'

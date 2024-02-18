@@ -3,9 +3,10 @@ import { KorpayWrapper } from "../../../components/wrapper"
 import { KorpayFrame } from "../../../components/frame";
 import { Grid } from "@mui/material";
 import { KorpayTitle } from '../../../components/title';
-import { _getForm, useKorpayFormProvider } from '../../../../services/providers/korpay-form-provider/korpay-form-provider';
+import { _getForm, useKorpayFormProvider } from '../../../../services/providers/studio-form-provider/studio-form-provider';
 import { styles } from './sign-up-page-styles';
 import { css } from 'aphrodite';
+import { StudioOnboard } from '../../../components/forms/form-onboard/studio-onboard-form';
 
 
 export const SignUpPage = () => {
@@ -21,11 +22,17 @@ export const SignUpPage = () => {
                     <KorpayTitle tag={tag} title={step?.title}
                         desc={step?.subtitle} />
 
+                        < StudioOnboard />
+                        
+
+
+                       
+
                     {/* Formulário Atual */}
-                    {_getForm(step?.render)}
+                    {/* {_getForm(step?.render)} */}
 
                 </Grid>
             </Grid>
         </KorpayWrapper>
     )
-}
+} 

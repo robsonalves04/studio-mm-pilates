@@ -3,7 +3,7 @@ import { Fragment, useRef } from "react"
 import { RiArrowRightSLine, RiUserLine } from 'react-icons/ri'
 import { EnumFormSteps } from "../../../../models/enums/form-steps"
 import { KorpayCPFEmpresaFormModel } from "../../../../models/forms/korpay-cpf-empresa-form-model"
-import { useKorpayFormProvider } from "../../../../services/providers/korpay-form-provider/korpay-form-provider"
+import { useKorpayFormProvider } from "../../../../services/providers/studio-form-provider/studio-form-provider"
 import { KorpayButton } from "../../button/korpay-button"
 import { KorpayTextInput } from "../../input"
 import { KorpayForm } from "../base-form"

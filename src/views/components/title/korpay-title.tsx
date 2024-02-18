@@ -1,6 +1,6 @@
 import { Button, Fade, Grid, IconButton } from "@mui/material"
 import { RiArrowDropLeftLine } from "react-icons/ri"
-import { useKorpayFormProvider } from "../../../services/providers/korpay-form-provider/korpay-form-provider"
+import { useKorpayFormProvider } from "../../../services/providers/studio-form-provider/studio-form-provider"
 import { styles } from "./korpay-title-styles"
 import { css } from "aphrodite"
 import { Theme } from "../../../functions/themes/korpay-signup-theme"

@@ -12,7 +12,7 @@ export const KorpayWrapper = (props: KorpayWrapperProps) => {
                 {props.watermark ? <div style={{
                     position: 'absolute', top: 15, left: 15,
                     color: "white", fontWeight: 800,
-                }}>Korpay</div> : null}
+                }}>Studio MM Pilates</div> : null}
                 <div style={{ display: "flex" }}>
                     {props.children}
                 </div>

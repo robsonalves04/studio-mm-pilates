@@ -2,7 +2,7 @@ import { Fade } from "@mui/material";
 import { Fragment, useRef } from "react";
 import { RiArrowRightSLine } from "react-icons/ri";
 import { EnumFormSteps } from "../../../../models/enums/form-steps";
-import { useKorpayFormProvider } from "../../../../services/providers/korpay-form-provider/korpay-form-provider";
+import { useKorpayFormProvider } from "../../../../services/providers/studio-form-provider/studio-form-provider";
 import { KorpayButton } from "../../button/korpay-button";
 import { KorpayFormRef } from "../base-form/korpay-form";
 

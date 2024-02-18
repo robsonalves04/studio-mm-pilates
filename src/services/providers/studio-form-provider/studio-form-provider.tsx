@@ -99,7 +99,7 @@ export const useKorpayFormProvider = () =>
 interface IFormSteps {
     id: string,
     render: EnumFormSteps, mensagem?: string
-    title: string, subtitle: string,
+    title: string, subtitle?: string,
     next?: string, previous?: string,
 }
 
@@ -138,8 +138,8 @@ export const KorpayFormProvider = (props: {
         steps: [{
             id: "6614c78b-1fd7-409f-aee9-ca6dab00442f",
             render: EnumFormSteps.CPF,
-            title: "Para começar, vamos precisar de alguns dados",
-            subtitle: "insira o CNPJ da sua empresa para continuar"
+            title: "Faca uma aula experimental",
+            // subtitle: "insira o CNPJ da sua empresa para continuar"
         }]
     });
 

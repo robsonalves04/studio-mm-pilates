@@ -3,7 +3,7 @@ import { KorpayEnderecoEContatoEmpresaSchema, } from "../schemas/korpay-forms-sc
 import { KorpayForm } from "../base-form"
 import { Fragment, useRef } from "react"
 import { KorpayTextInput } from "../../input"
-import { useKorpayFormProvider } from "../../../../services/providers/korpay-form-provider/korpay-form-provider"
+import { useKorpayFormProvider } from "../../../../services/providers/studio-form-provider/studio-form-provider"
 import { EnumFormSteps } from "../../../../models/enums/form-steps"
 import { RiArrowRightSLine, RiPhoneLine } from 'react-icons/ri'
 import { KorpayButton } from "../../button/korpay-button"

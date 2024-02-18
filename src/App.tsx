@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter } from "react-router-dom";
 import { AppPublicRouter } from "./router";
-import { KorpayFormProvider } from './services/providers/korpay-form-provider/korpay-form-provider';
+import { KorpayFormProvider } from './services/providers/studio-form-provider/studio-form-provider';
 import { Toaster } from 'react-hot-toast';
 
 
