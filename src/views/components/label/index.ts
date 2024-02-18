@@ -1,0 +1,1 @@
+export { KorpayLabelRoot } from "./korpay-label"

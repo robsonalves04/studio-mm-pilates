@@ -1,0 +1,1 @@
+export { KorpayTitle } from './korpay-title'

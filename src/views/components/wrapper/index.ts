@@ -1,0 +1,1 @@
+export { KorpayWrapper } from './korpay-wrapper'

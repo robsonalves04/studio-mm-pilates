@@ -1,0 +1,1 @@
+export { useIdentidadeClient } from './indetidade-client'
